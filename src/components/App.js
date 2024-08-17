@@ -50,6 +50,11 @@ const filterPorkersByWeight = (porkers, weight) => {
 
 	}
 
+	function removePorker(porker) {
+		const filteredPorkers = porkers.filter((hog) => hog.name !== porker.name);
+		setPorkers(filteredPorkers);
+	}
+
 	return (
 		<div className="App">
 			<Nav />
@@ -65,6 +70,9 @@ const filterPorkersByWeight = (porkers, weight) => {
 								<p>{hog.name}</p>
 								<p>{hog.specialty}</p>
 								<p>Weight: {hog.weight}</p>
+							</div>
+							<div >
+								<button onClick={() => removePorker(hog)}>Remove</button>
 							</div>
 						<div className="porker-image">
 					  </div>

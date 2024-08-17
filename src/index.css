@@ -165,8 +165,8 @@ ul {
   padding: 1%;
   border: 1px solid #3B0B0B;
   border-radius: 5px;
-  width: 210px;
-  height: 210px;
+  width: 230px;
+  height: 230px;
 }
 
 .porker-name {
@@ -183,10 +183,9 @@ ul {
 }
 
 .porker-image {
-  width:58%;
-  height: 58%;
+  width:50%;
+  height: 50%;
   border-radius: 10px;
-  margin-bottom: 2px;
 }
 
 .porker-image:hover {
