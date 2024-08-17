@@ -150,3 +150,63 @@ ul {
     transform: rotate(360deg);
   }
 }
+
+.porkers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.porker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1%;
+  padding: 1%;
+  border: 1px solid #3B0B0B;
+  border-radius: 5px;
+  width: 210px;
+  height: 210px;
+}
+
+.porker-name {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.porker-specialty {
+  font-size: 1.25em;
+}
+
+.porker-weight {
+  font-size: 1.25em;
+}
+
+.porker-image {
+  width:58%;
+  height: 58%;
+  border-radius: 10px;
+  margin-bottom: 2px;
+}
+
+.porker-image:hover {
+  transform: scale(1.1);
+}
+
+.porker-info {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.porker-info p {
+  margin: 0;
+}
+
+.search-wrapper {
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+}
